@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
-const { HOST='0.0.0.0', PORT = 8080 } = process.env;
+const { HOST='0.0.0.0', PORT = 6060 } = process.env;
 
 module.exports = () => {
   const modulesFolderPath = path.resolve(__dirname, 'node_modules');
